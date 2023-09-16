@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "HydroWatt",
-    "slug": "HydroWatt",
+    "slug": "hydrowatt",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aravindkvishwanath.SIHHydroWatt"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "479c68c2-23a8-4742-9d01-867562f19d02"
+      }
+    },
+    "owner": "aravindkvishwanath"
   }
 }
